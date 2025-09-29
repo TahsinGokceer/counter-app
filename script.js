@@ -4,7 +4,7 @@ const minsEl = document.getElementById('mins')
 const secondsEl = document.getElementById('seconds')
 
 function countdown(){
-    const newYearsDate = new Date(2024, 1, 12, 13, 0, 0, 0)    // yıl ay gün saat diye gidiyor en sonda milisaniye var. Aylar 0'dan başlıyor.
+    const newYearsDate = new Date(2025, 10, 29, 19, 0, 0, 0)    // yıl ay gün saat diye gidiyor en sonda milisaniye var. Aylar 0'dan başlıyor.
     const currentDate = new Date()
 
     const totalSeconds = (newYearsDate - currentDate) / 1000
