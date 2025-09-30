@@ -96,7 +96,8 @@ h3{
 
 @media(max-width: 500px){
     .main-container{
-        background: url("img/bbb.jpg") no-repeat center center/cover;
+        /* background: url("img/bbb.jpg") no-repeat center center/cover; */
+        background-color: black;
         width: 100%;
     }
 
